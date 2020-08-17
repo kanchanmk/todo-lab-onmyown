@@ -1,0 +1,48 @@
+.todoComponent {
+	width: 80%;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 5px;
+	font-family: Open Sans;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.todo_OL {
+	padding: 20px;
+}
+
+.todolist {
+	display: flex;
+	justify-content: space-between;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+.completeBtn {
+	background-color: white;
+	border-color: #ff69b4;
+	color: #ff69b4;
+	border-radius: 5px;
+	padding: 0;
+}
+
+.addBtn {
+	width: 100%;
+	background-color: #ff1493;
+	border-radius: 5px;
+	color: white;
+}
+
+.delBtn {
+	height: 20px;
+}
+
+.input {
+	height: 20px;
+	width: 100%;
+	margin-bottom: 5px;
+}
